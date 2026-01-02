@@ -1,7 +1,7 @@
 {
   "name": "773cam",
   "private": true,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Desktop camera app for Windows with minimize feature",
   "author": "MirrorCam Team",
   "type": "module",
