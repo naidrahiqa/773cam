@@ -1,7 +1,7 @@
 {
   "name": "773cam",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Desktop camera app for Windows with minimize feature",
   "author": "MirrorCam Team",
   "type": "module",
@@ -48,7 +48,9 @@
       "package.json"
     ],
     "win": {
-      "target": ["portable"],
+      "target": [
+        "portable"
+      ],
       "icon": "build/icon.ico"
     },
     "nsis": {

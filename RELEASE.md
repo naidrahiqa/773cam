@@ -1,10 +1,16 @@
-# 📸 MirrorCam v1.0.0
+# 📸 MirrorCam v1.0.1
 
 Desktop camera application for Windows built with Electron + React + TypeScript.
 
 ## 🎉 Release Notes
 
-### Features
+### v1.0.1 (Latest)
+
+- 🐛 **Fixed**: Black screen on launch (fixed path resolution issues).
+- 📐 **Improved**: Lowered minimum window size limit (down to 300x225).
+- ⚡ **Optimized**: Smoother startup performance.
+
+### v1.0.0 (Initial)
 
 - 🎥 **Live Camera Stream** - Real-time webcam with mirror mode
 - 📸 **Snapshot** - Save photos instantly to Downloads
