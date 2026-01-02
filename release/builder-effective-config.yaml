@@ -1,0 +1,21 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.mirrorcam.app
+productName: MirrorCam
+files:
+  - filter:
+      - dist/**/*
+      - electron.cjs
+      - preload.cjs
+      - package.json
+win:
+  target:
+    - portable
+  icon: build/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+electronVersion: 33.2.1
